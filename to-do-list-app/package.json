@@ -1,0 +1,23 @@
+{
+  "name": "todo-list-app",
+  "version": "1.0.0",
+  "description": "A minimalist and responsive To-Do List app to manage daily tasks.",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "keywords": [
+    "todo",
+    "task",
+    "list",
+    "html",
+    "css",
+    "javascript",
+    "productivity"
+  ],
+  "author": "Anne Lorena Melo Takano",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "11.2.0"
+  }
+}

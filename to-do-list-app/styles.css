@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #ddccfd, #cde4ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  width: 25rem;
+  height: 30rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(160, 140, 230, 0.25),
+    0 2px 4px rgba(255, 255, 255, 0.4) inset;
+}
+
+/* Header */
+#header {
+  background-color: #a069e8;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+#header h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: 0.07rem;
+  color: white;
+  padding: 0 2rem;
+}
+
+/* Input */
+#inputWrapper {
+  position: relative;
+  padding: 1.8rem 2rem;
+  width: 100%;
+}
+
+#taskInput {
+  background-color: #f5f5f5;
+  font-family: "Noto Sans", sans-serif;
+  color: #6f5b9e;
+  font-weight: 500;
+  width: 100%;
+  padding: 0 1rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 2rem;
+  outline: none;
+  font-size: 0.9rem;
+  box-shadow: inset 0 1px 2px rgba(160, 140, 230, 0.15),
+    inset 0 -1px 2px rgba(255, 255, 255, 0.3);
+}
+
+#taskInput::placeholder {
+  font-family: "Noto Sans", sans-serif;
+  color: #a891c7;
+  font-weight: 500;
+}
+
+#addButton {
+  position: absolute;
+  top: 50%;
+  right: 2.5rem;
+  transform: translateY(-50%);
+  color: #a069e8;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Tasks */
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #6f5b9e;
+  width: 100%;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ddccfd;
+  height: 2.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.task i {
+  color: #e0e0e0;
+  cursor: pointer;
+}
+
+.taskDivWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+#taskList {
+  list-style: none;
+}
