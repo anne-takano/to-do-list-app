@@ -44,4 +44,4 @@ Then open your browser at http://localhost:3000 to view the app.
 <img width="1476" height="770" alt="image" src="https://github.com/user-attachments/assets/7336c9f1-ce56-4202-9ea2-75746ba4ab7c" />
 
 
-Made with 💜 by [Anne Melo Takano]
+Made with 💜 by [Anne Takano]
