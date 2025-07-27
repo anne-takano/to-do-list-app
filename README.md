@@ -1,6 +1,6 @@
 # 📝 To-Do List App
 
-A minimalist and responsive To-Do List application designed to help you manage your daily tasks with ease and clarity. Built using HTML, CSS, and JavaScript, this project allows users to add, complete, and delete tasks in a visually clean interface — ideal for personal productivity or practice in front-end development.
+A minimalist and responsive To-Do List application designed to help you manage your daily tasks with ease and clarity. Built using HTML, CSS, and JavaScript, this project allows users to add, complete, and delete tasks in a visually clean interface — ideal for personal productivity or practice in front-end development. :)
 
 ## 🚀 Features
 
@@ -37,7 +37,7 @@ To run this project locally using a simple development server:
    npm start
    ```
    
-Then open your browser at http://localhost:3000 to view the app.
+Then open your browser at http://localhost:3000 to view the app running.
 
 ## 📸 Screenshot
 
